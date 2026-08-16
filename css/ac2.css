@@ -1,0 +1,35 @@
+body {
+    background-color:aqua;
+    background-image:-moz-linear-gradient(to bottom,aqua,navy);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .page-header{
+        background-image:-moz-linear-gradient(to right, purple, coral);
+        border-radius: 16px;
+        color: white;
+    }
+    .fact-card {
+        background-color: midnightblue;
+        border-radius: 12px;
+        color: white;
+    }
+    .fact-cardh2 {
+        color: coral;
+    }
+    .star {
+        width:60px;
+        height: 60px;
+        background-color: yellow;
+        border-radius: 50%;
+        animation: twinkle 2s infinite alternate;
+    }
+    @keyframes twinkle {
+        from {background-color: yellow;}
+        to   {background-color: white;}
+    }
+    .footer-text {
+        text-align: centre;
+        color: coral;
+    }
